@@ -1,3 +1,9 @@
+# Documentation
+*.md
+
+# Frontend
+frontend/
+
 # Dependencies
 node_modules/
 *.pnp
