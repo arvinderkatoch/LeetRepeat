@@ -53,7 +53,7 @@ function formatErrorResponse(err, isDevelopment = false) {
   const errorMap = {
     23505: { message: "Resource already exists", statusCode: 409 },
     23503: { message: "Invalid reference or foreign key", statusCode: 400 },
-    42P01: { message: "Resource not found", statusCode: 404 },
+    "42P01": { message: "Resource not found", statusCode: 404 },
     "auth/invalid-id-token": { message: "Invalid authentication token", statusCode: 401 },
   };
 
